@@ -23,8 +23,9 @@ setCambio(true)
 setMaximo(0)
 
 setMinimo(0)
-setRandom(0)
+setRandom(false)
 setDecimal(0)
+setCambio(false)
 
     }
 const handleRandom=(e)=>{
@@ -37,6 +38,8 @@ if(maximo<minimo||(maximo===minimo)){
 setError(false)
 setRandom(Number((Math.random()* (maximo - minimo) + minimo).toFixed(decimal)))
 setResultado(true)
+setCambio(false)
+
 }
 
   return (
