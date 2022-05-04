@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+input[type="number"]
+{
+    -webkit-appearance: textfield;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+
+.container-content{
+
+ padding: 2em;
+}
